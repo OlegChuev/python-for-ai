@@ -1,5 +1,6 @@
 import math
 
+
 def calculate_area_of_triangle(side1, side2, side3):
     # Calculate the semi-perimeter
     s = (side1 + side2 + side3) / 2
@@ -8,6 +9,7 @@ def calculate_area_of_triangle(side1, side2, side3):
     area = math.sqrt(s * (s - side1) * (s - side2) * (s - side3))
 
     return area
+
 
 def main():
     try:
@@ -25,6 +27,7 @@ def main():
 
     except ValueError:
         print("Invalid input. Please enter numerical values for the sides.")
+
 
 if __name__ == "__main__":
     main()

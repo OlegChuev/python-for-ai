@@ -1,0 +1,92 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "last_name": "Doe",
+      "first_name": "John",
+      "patronymic": "A.",
+      "year_of_birth": 2000,
+      "year_of_entering": 2018
+    },
+    {
+      "id": "2",
+      "last_name": "Kozak",
+      "first_name": "Oksana",
+      "patronymic": "Petrovna",
+      "year_of_birth": 2001,
+      "year_of_entering": 2019
+    }
+  ],
+  "budget_students": [
+    {
+      "id": "3",
+      "last_name": "Smith",
+      "first_name": "Jane",
+      "patronymic": "B.",
+      "year_of_birth": 1999,
+      "year_of_entering": 2017,
+      "scholarship": 1500
+    },
+    {
+      "id": "4",
+      "last_name": "Ivanov",
+      "first_name": "Mikhail",
+      "patronymic": "Sergeyevich",
+      "year_of_birth": 1998,
+      "year_of_entering": 2016,
+      "scholarship": 2000
+    }
+  ],
+  "disciplines": [
+    {
+      "id": "1",
+      "name": "Mathematics",
+      "number_of_credits": 4,
+      "semester_of_teaching": 1
+    },
+    {
+      "id": "2",
+      "name": "Physics",
+      "number_of_credits": 3,
+      "semester_of_teaching": 2
+    },
+    {
+      "id": "3",
+      "name": "Chemistry",
+      "number_of_credits": 5,
+      "semester_of_teaching": 3
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "last_name": "Johnson",
+      "first_name": "Emily",
+      "patronymic": "C.",
+      "year_of_birth": 1980,
+      "teaching_experience": 10,
+      "discipline_ids": ["1", "2"]
+    },
+    {
+      "id": "2",
+      "last_name": "Shevchenko",
+      "first_name": "Taras",
+      "patronymic": "Grigoriyovych",
+      "year_of_birth": 1975,
+      "teaching_experience": 15,
+      "discipline_ids": ["3"]
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "group_number": "CS101",
+      "student_ids": ["1", "2"]
+    },
+    {
+      "id": "2",
+      "group_number": "CS102",
+      "student_ids": ["3", "4"]
+    }
+  ]
+}
